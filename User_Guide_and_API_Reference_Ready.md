@@ -88,8 +88,6 @@ If the password is forgotten during login:
 
 ---
 
-Untuk menjaga keamanan akun Anda, perhatikan hal-hal berikut saat menggunakan Single Sign-On (SSO):
-
 - Manage Passwords Safely
     - **Never** share the account or password with others.
     - **Change** passwords periodically to reduce misuse risk
