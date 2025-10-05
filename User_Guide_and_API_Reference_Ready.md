@@ -84,41 +84,57 @@ If the password is forgotten during login:
 7. Click **Update Password**.
 8. After a successful reset, a confirmation message appears, and the system redirects back to the **Login** page. Log in again using the **email** and **new password**.
 
-### ⚠️ [Security Tips When Using SSO](#-security-tips-when-using-sso)
+
+### ⚠️ Security Tips When Using SSO
 
 ---
 
-- Manage Passwords Safely
-    - **Never** share the account or password with others.
-    - **Change** passwords periodically to reduce misuse risk
-        
-        ![image-20251002-091943.png](image-20251002-091943.png)
-        
-        1. Open the **Change Password** menu.
-        2. Enter the current password in the **Old Password** field.
-        3. Enter a new password in the **New Password** field. Use a **strong password** (minimum 8 characters combining uppercase, lowercase, numbers, and symbols). Avoid reusing the old password.
-        4. Re-type the new password in the **Re-type Password** field. Use the **👁 (eye)** icon to verify.
-        5. Complete the **Captcha** verification.
-        6. Click **Update Password**.
-- Secure the Device
-    - Avoid logging in from **public or shared devices** without logging out afterward.
-    - Enable **Remember Me** only on personal devices.
-    - Use **Trust this device for 30 days** only on personal devices.
-    - Regularly check **Linked Devices** by following these steps:
-        
-        ![image-20251002-092032.png](image-20251002-092032.png)
-        
-        1. Open the **Linked Device** menu.
-        2. If an unknown or unauthorized device is listed, click **REMOVE** to revoke access.
-- Enable Multi-Factor Authentication (MFA)
-    
-    MFA adds an extra security layer by requiring additional verification beyond passwords
-    
-    ![image-20251002-092104.png](image-20251002-092104.png)
-    
-    1. Open the **MFA** menu on the dashboard.
-    2. Choose an additional verification method (**Email** or **Google Authenticator App**) using the checkbox.
-    3. Click **Save Changes** to activate MFA.
+To maintain account security when using Single Sign-On (SSO), pay attention to the following:
+
+<details>
+  <summary>🔐 Manage Passwords Safely</summary>
+
+- **Never** share the account or password with others.  
+- **Change** passwords periodically to reduce misuse risk.  
+
+![image-20251002-091943.png](image-20251002-091943.png)
+
+1. Open the **Change Password** menu.  
+2. Enter the current password in the **Old Password** field.  
+3. Enter a new password in the **New Password** field. Use a **strong password** (minimum 8 characters combining uppercase, lowercase, numbers, and symbols). Avoid reusing the old password.  
+4. Re-type the new password in the **Re-type Password** field. Use the **👁 (eye)** icon to verify.  
+5. Complete the **Captcha** verification.  
+6. Click **Update Password**.  
+
+</details>
+
+<details>
+  <summary>💻 Secure the Device</summary>
+
+- Avoid logging in from **public or shared devices** without logging out afterward.  
+- Enable **Remember Me** only on personal devices.  
+- Use **Trust this device for 30 days** only on personal devices.  
+- Regularly check **Linked Devices** by following these steps:  
+
+![image-20251002-092032.png](image-20251002-092032.png)
+
+1. Open the **Linked Device** menu.  
+2. If an unknown or unauthorized device is listed, click **REMOVE** to revoke access.  
+
+</details>
+
+<details>
+  <summary>🔒 Enable Multi-Factor Authentication (MFA)</summary>
+
+MFA adds an extra security layer by requiring additional verification beyond passwords.  
+
+![image-20251002-092104.png](image-20251002-092104.png)
+
+1. Open the **MFA** menu on the dashboard.  
+2. Choose an additional verification method (**Email** or **Google Authenticator App**) using the checkbox.  
+3. Click **Save Changes** to activate MFA.  
+
+</details>
 
 ## [**Section 2: API Reference – SplitReservation**](#section-2-api-reference--splitreservation)
 
