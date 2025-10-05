@@ -48,7 +48,7 @@ The login form will appear with fields for **Username/Email** and **Password**.
         > - When disabled, OTP will be **requested every time** a login occurs, even on the same network.
 5. Login Complete
     
-    To confirm that the login process is successful, the system will automatically redirect to the dashboard page. Check the displayed **username** to ensure that the correct account has been logged in.
+    To confirm that the login process is successful, the system will automatically redirect to the **dashboard** page. Check the displayed **username** to ensure that the correct account is logged in.
     
     ![Group 632576.png](Group_632576.png)
     
@@ -95,7 +95,7 @@ To maintain account security when using Single Sign-On (SSO), pay attention to t
   <summary>Manage Passwords Safely</summary>
 
 - **Never** share the account or password with others.  
-- **Change** passwords periodically to reduce misuse risk.  
+- **Change** passwords periodically (3-6 months) to reduce misuse risk.  
 
 ![image-20251002-091943.png](image-20251002-091943.png)
 
@@ -145,7 +145,7 @@ MFA adds an extra security layer by requiring additional verification beyond pas
 
 ---
 
-`SplitReservation` allows users to **split one reservation containing multiple rate plans** into separate reservations. Therefore when a guest books multiple rate plans under a single reservation but needs them to be managed, modified, or canceled individually.
+`SplitReservation` allows users to **split one reservation containing multiple rate plans** into separate reservations. Afterward, if a guest books multiple rate plans under a single reservation but needs to manage, update, or cancel them separately, this API can be used to split the reservation.
 
 **Example:**
 
@@ -173,8 +173,8 @@ Content-Type: application/json
 
 | Method | URL | Deskripsi |
 | --- | --- | --- |
-| **POST** | `/api/v1/split-reservation` | Used to split a reservation into separate parts. |
-| **GET** | `/api/v1/split-reservation/{bookingNumber}` | Used to retrieve split results from a specific reservation number. |
+| **POST** | `/api/v1/split-reservation` | To split a reservation into separate parts. |
+| **GET** | `/api/v1/split-reservation/{bookingNumber}` | To retrieve split results from a specific reservation number. |
 
 ### [Request Example](#request-example)
 
