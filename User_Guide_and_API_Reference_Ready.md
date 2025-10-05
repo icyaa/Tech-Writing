@@ -92,7 +92,7 @@ If the password is forgotten during login:
 To maintain account security when using Single Sign-On (SSO), pay attention to the following:
 
 <details>
-  <summary>- Manage Passwords Safely</summary>
+  <summary>Manage Passwords Safely</summary>
 
 - **Never** share the account or password with others.  
 - **Change** passwords periodically to reduce misuse risk.  
@@ -109,7 +109,7 @@ To maintain account security when using Single Sign-On (SSO), pay attention to t
 </details>
 
 <details>
-  <summary>- Secure the Device</summary>
+  <summary>Secure the Device</summary>
 
 - Avoid logging in from **public or shared devices** without logging out afterward.  
 - Enable **Remember Me** only on personal devices.  
@@ -124,7 +124,7 @@ To maintain account security when using Single Sign-On (SSO), pay attention to t
 </details>
 
 <details>
-  <summary>- Enable Multi-Factor Authentication (MFA)</summary>
+  <summary>Enable Multi-Factor Authentication (MFA)</summary>
 
 MFA adds an extra security layer by requiring additional verification beyond passwords.  
 
