@@ -48,7 +48,7 @@ The login form will appear with fields for **Username/Email** and **Password**.
         > - When disabled, OTP will be **requested every time** a login occurs, even on the same network.
 5. Login Complete
     
-    When credentials are valid, the system redirects to the main **Dashboard**. Ensure the displayed **username** is correct to confirm login success
+    To confirm that the login process is successful, the system will automatically redirect to the dashboard page. Check the displayed **username** to ensure that the correct account has been logged in.
     
     ![Group 632576.png](Group_632576.png)
     
