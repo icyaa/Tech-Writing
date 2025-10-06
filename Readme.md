@@ -74,15 +74,14 @@ If the password is forgotten during login:
 3. Complete the **Captcha** verification.
 4. Click **Continue**.
 5. The system will open the password update form. Fill in the fields as follows:
-    - **Old Password:** Enter the previous password.
-    - **New Password:** Enter a new password (minimum 8 characters, including uppercase, lowercase, number, and symbol).
-    - **Re-type Password:** Re-enter the new password for confirmation.
+    - **Password:** Enter a new password (minimum 8 characters, including uppercase, lowercase, number, and symbol).
+    - **Confirm Password:** Re-enter the new password for confirmation.
     
-    ![Group 632577.png](Group_632577.png)
-    
-6. Complete the **Captcha** verification again.
-7. Click **Update Password**.
-8. After a successful reset, a confirmation message appears, and the system redirects back to the **Login** page. Log in again using the **email** and **new password**.
+    ![Group 632579.png](Group_632579.png)
+       
+7. Complete the **Captcha** verification again.
+8. Click **Update Password**.
+9. After a successful reset, a confirmation message appears, and the system redirects back to the **Login** page. Log in again using the **email** and **new password**.
 
 
 ### ⚠️ Security Tips When Using SSO
