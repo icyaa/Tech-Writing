@@ -65,7 +65,7 @@ If the password is forgotten during login:
     
     The system will redirect to the password reset page.
     
-    ![Group 632571.png](Group_632571.png)
+    ![Group 632571.png](login-page.png)
     
 2. Enter the registered email address in the provided field.
     
